@@ -46,7 +46,7 @@ server <- function(input, output, session) {
             geom_bar (stat="identity")+
             theme_minimal()+
             theme(axis.text.x = element_text(size=8, angle=90))+
-            geom_point(aes(x= Year, y=Nat.Avg), color="blue")
+            geom_point(aes(x= Year, y=Nat.Avg), color="green")
           
      
         
