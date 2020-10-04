@@ -37,8 +37,7 @@ server <- function(input, output, session) {
     output$plot <- renderPlotly({
         
         q2statesslice <- q2state %>%
-            filter(ICD.Chapter== input$cause)%>%
-            filter(State == input$state )
+            filter(ICD.Chapter== input$cause, State == input$state)
         
         
         ggplot(data = q2statesslice) + 
