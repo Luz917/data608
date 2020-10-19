@@ -1,0 +1,49 @@
+---
+title: "Final Project Proposal"
+author: "Maryluz Cruz"
+date: "10/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Final Project Proposal 
+
+The Data for this project will be from data.gov, from the Montgomery County of Maryland. The link to the data is here:
+
+https://catalog.data.gov/dataset/mcpd-bias-incidents/resource/fb702f34-d517-40b5-b877-0a7a7ba3784c
+
+This data includes information of when a bias incident has occured against another person from the years 2016-2020, in the County of Maryland. 
+
+
+## Summary of the Data 
+
+```{r echo=FALSE, warning=FALSE}
+biasincidents<-read.csv("https://raw.githubusercontent.com/Luz917/data608/master/MCPD_Bias_Incidents.csv")
+```
+
+
+```{r echo=FALSE, warning=FALSE}
+dim(biasincidents)
+```
+
+
+#### Column names 
+
+```{r echo=FALSE, warning=FALSE}
+colnames(biasincidents)
+```
+#### Summary
+```{r echo=FALSE, warning=FALSE}
+summary(biasincidents)
+```
+## Description of Project
+
+Over the recent years there have been a lot of bias incidents have been commited wheter it be due to race, religion, sexual orientation. Here I wanted to look into that and see what bias incidents that have been commited the most. Also to see how many crimes were commited based on the year, whether there was an increase as the years went on or if it decreased. This information was from the Montgomery County of Maryland, this data includes 523 cases and 16 Columns. 
+
+## Technologies 
+
+As far as technologies I was thinking about doing an R markdown and include a shinny app with plotly. I want to display many visuualizations so that one is able to see the comparisons of the different bias incidents that have been commited. I was thinking about doing a dropdown by year so that one can see what bias incidents were commited by year. Also a visualizatuion of how the bias was commited. Thee are a lot of diiferent things that can be explored with this data
+
