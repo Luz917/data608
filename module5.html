@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Module 5</title>
+</head>
+
+<body>
+
+<h1> Data 608 Module 5 </h1>
+
+<h2>Maryluz Cruz </h2>
+
+
+<h3> Beginner Assignment # 1 </h3>
+
+<p> Enter a word so that the word can be reversed!! </p>
+
+<script type="text/javascript">
+
+function reverseWORD(wrd){
+	var wrd1, txt="";
+	var wrd2 = wrd.length;
+	for (wrd1 = wrd2-1; wrd1 >= 0; wrd1--) {
+		txt=txt+wrd[wrd1];
+	}
+	return(txt);
+}
+function WORDreverse(){
+	var flip = document.getElementById("Reversal");
+	flip.innerHTML=reverseWORD(document.getElementById("string").value);
+}
+</script>
+<p>
+<form>
+    <input id="string" type="text">
+    <input type="button" value="Enter" onClick="WORDreverse();">
+</form>
+</p>
+Reversed Word: <b id="Reversal"></b>
+
+<h3>Beginner Assignment 2</h3>
+<p>Please input a input number so that it can print a table with the first 20 multiples of the number and it will be in 5x4 order.</p>
+
+
+<script type="text/javascript">
+
+
+// Generates table of 20 multiples
+
+function multiplynum(){
+	var mult1, mult2, mult3;
+	var m = document.getElementById("multitable");
+	var n = document.getElementById("num").value;
+	mult3 = "<b>First 20 Multiples of "+n+":</b><br><table>";
+
+	for (mult1 = 1; mult1 <= 5; mult1++) {
+		mult3=mult3+"<tr>"
+		for (mult2 = 1; mult2 <= 4; mult2++) {
+			mult3=mult3+"<td>"+(n*((mult1-1)*4+mult2))+"</td>";
+		}
+		mult3=mult3+"</tr>"
+	}
+	m.innerHTML = mult3+"</table>";
+}
+</script>
+<p>
+<form>
+    <input id="num" type="number" >
+    <input type="button" value="Enter for Multiples" onClick="multiplynum();">
+</form>
+</p>
+<div id="multitable"></div>
+   
+
+</body>
+
+</html>
