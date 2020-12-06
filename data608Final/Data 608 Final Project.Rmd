@@ -1,0 +1,179 @@
+---
+title: "Data 608 Final Project"
+author: "Maryluz Cruz"
+date: "12/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+require(DataExplorer)
+require(tidyverse)
+require(ggplot2)
+```
+
+
+
+
+```{r}
+antibias<- read.csv("https://raw.githubusercontent.com/Luz917/data608/master/MCPD_Bias_Incidents.csv")
+```
+
+
+```{r}
+summary(antibias)
+```
+
+```{r}
+dim(antibias)
+```
+
+```{r}
+table(unique(antibias$Bias.Code))
+```
+
+```{r}
+unique(antibias$District)
+```
+
+```{r}
+unique(antibias$Bias)
+```
+
+
+```{r}
+antibias$Incident.Date <- as.POSIXct(antibias$Incident.Date, format = "%m/%d/%Y")
+antibias$Year<-as.numeric(format(antibias$Incident.Date, format="%Y"))
+```
+
+
+```{r}
+antibias<-antibias[-c(2,5,7,8,10,11,12,13,14,15,16)]## Remove Index
+```
+
+
+```{r}
+colnames(antibias)
+```
+
+
+```{r}
+summary(antibias)
+```
+
+```{r}
+write.csv(antibias, file = 'bias_incidents.csv')
+```
+
+
+
+```{r}
+glimpse(antibias)
+```
+
+raceCount <- dat %>% 
+  group_by(race2, q0002) %>%
+  count()
+raceCount <- raceCount %>% 
+  group_by(race2) %>%
+  mutate(RACE_PCT = n/sum(n))
+raceCount
+
+
+```{r}
+yearcount <- anitbias %>%
+  group_by(Year, Bias.Code)%>%
+  count()
+yearcount <- yearcount %>%
+  group_by(Bias.Code) %>%
+  mutate(Bias_Percent = n/sum(n))
+yearcount
+```
+
+library(ggplot2)
+ggplot(raceCount, aes(fill=race2, y=RACE_PCT, x=q0002)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Race vs Answer")
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(yearcount, aes(fill=Bias.Code, y=Bias_Percent , x=Year)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Year vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()
+
+```
+
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(yearcount, aes(fill=Bias.Code, y=Bias_Percent , x=Year)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Year vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()+ 
+  facet_wrap(~Bias.Code)
+
+```
+
+
+```{r}
+districtcount <- anitbias %>%
+  group_by(District, Bias.Code)%>%
+  count()
+districtcount <- districtcount %>%
+  group_by(Bias.Code) %>%
+  mutate(District_Percent = n/sum(n))
+districtcount
+```
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(districtcount, aes(fill=Bias.Code, y=District_Percent , x=District)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("District vs Bias.Code") +
+  theme_minimal()+
+  coord_flip()
+
+```
+
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(districtcount, aes(fill=Bias.Code, y=District_Percent , x=District)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("District vs Bias.Code") +
+  theme_minimal()+
+  coord_flip()+
+  facet_wrap(~Bias.Code)
+
+```
+
+```{r}
+yearcount1 <- anitbias %>%
+  group_by(Bias.Code, Year)%>%
+  count()
+yearcount1 <- yearcount1 %>%
+  group_by(Bias.Code) %>%
+  mutate(Bias_Percent1 = n/sum(n))
+yearcount1
+```
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(yearcount1, aes(fill=Year, y=Bias_Percent1 , x=Bias.Code)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Year vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()
+
+```
+
+
+
+
