@@ -1,0 +1,540 @@
+"","ID","District","Bias.Code","Bias","Victim.Type","Year"
+"1",190013103,"1D","Anti-Black","Assault (simple)","Individual(s)",2019
+"2",180055472,"1D","Anti-Jewish","Vandalism","School/College",2018
+"3",190026176,"3D","Anti-Transgender","Other","Individual(s)",2019
+"4",170515340,"2D","Anti-Homosexual","Vandalism","Individual(s)",2017
+"5",170520131,"4D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"6",170513601,"2D","Anti-Jewish","Vandalism","Society",2017
+"7",170542522,"1D","Anti-Black","Vandalism","School/College",2017
+"8",170512439,"1D","Anti-Other Ethnicity","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"9",180056039,"2D","Anti-Black","Written Intimidation/Simple Assault","School/College",2018
+"10",200021658,"2D","Anti-Black","Other","Individual(s)",2020
+"11",180042888,"4D","Anti-Other Ethnicity","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"12",180064394,"4D","Anti-Islamic","Vandalism","Religious Organization",2018
+"13",170500285,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"14",190011926,"4D","Anti-Asian","Vandalism","Individual(s)",2019
+"15",170539207,"6D","Anti-Homosexual","Assault (physical)","Individual(s)",2017
+"16",170511135,"1D","Anti-Jewish","Vandalism","School/College",2017
+"17",17012598,"5D","Anti-Islamic","Written Intimidation/Simple Assault","Religious Organization",2017
+"18",170501940,"4D","Anti-Black","Vandalism","Individual(s)",2017
+"19",16059010,"1D","Anti-Multi-Racial","Written Intimidation/Simple Assault","School/College",2016
+"20",16020540,"2D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2016
+"21",180053615,"4D","Anti-Black","Assault (physical)","Individual(s)",2018
+"22",170542473,"4D","Anti-Homosexual","Assault (physical)","Individual(s)",2017
+"23",180032468,"5D","Anti-Islamic","Vandalism","Individual(s)",2018
+"24",180026780,"5D","Anti-Black","Flyer Left Behind","Individual(s)",2018
+"25",200008286,"6D","Anti-Jewish","Vandalism","School/College",2020
+"26",180011552,"1D","Anti-Multi-Racial","Written Intimidation/Simple Assault","School/College",2018
+"27",170538262,"GCPD","Anti-Black","Vandalism","School/College",2017
+"28",16046525,"6D","Anti-Homosexual","Assault (physical)","Individual(s)",2016
+"29",16018523,"2D","Anti-Black","Assault (physical)","Individual(s)",2016
+"30",16047778,"5D","Anti-Other Ethnicity","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"31",170523171,"3D","Anti-Black","Vandalism","Individual(s)",2017
+"32",170520886,"RCPD","Anti-Black","Physical Intimidation/Simple Assault","School/College",2017
+"33",170510517,"TPPD","Anti-Catholic","Vandalism","School/College",2017
+"34",170534164,"GCPD","Anti-Jewish","Vandalism","Government",2017
+"35",170548977,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"36",170522789,"5D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2017
+"37",190035257,"4D","Anti-Jewish","Vandalism","Society",2019
+"38",190034844,"RCPD","Anti-Jewish","Vandalism","Society",2019
+"39",17012395,"1D","Anti-Black","Vandalism","School/College",2017
+"40",180054635,"6D","Anti-Jewish","Vandalism","School/College",2018
+"41",170526440,"4D","Anti-Black","Assault (physical)","Individual(s)",2017
+"42",16064683,"6D","Anti-Transgender","Assault (physical)","Individual(s)",2016
+"43",16043077,"5D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2016
+"44",170529740,"6D","Anti-Multi-Racial","Vandalism","Business/Financial Institution",2017
+"45",170528035,"6D","Anti-Multi-Racial","Vandalism","Government",2017
+"46",190044912,"1D","Anti-Jewish","Written Intimidation/Simple Assault","Society",2019
+"47",16000600,"1D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"48",190044661,"4D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"49",16048759,"1D","Anti-Jewish","Vandalism","School/College",2016
+"50",16058747,"5D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2016
+"51",16015330,"3D","Anti-Jewish","Vandalism","School/College",2016
+"52",16058596,"6D","Anti-Black","Verbal Intimidation/Simple Assault","Business/Financial Institution",2016
+"53",180002565,"3D","Anti-Islamic","Flyer Left Behind","Individual(s)",2018
+"54",180006627,"2D","Anti-Asian","Other","Individual(s)",2018
+"55",170537609,"6D","Anti-Black","Assault (physical)","Individual(s)",2017
+"56",180036689,"5D","Anti-Black","Vandalism","Individual(s)",2018
+"57",200012238,"4D","Anti-Jewish","Assault (physical)","Individual(s)",2020
+"58",16035647,"2D","Anti-Black","Assault (physical)","Individual(s)",2016
+"59",200012130,"4D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"60",170522344,"1D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2017
+"61",180062118,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2018
+"62",180051193,"GCPD","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"63",200019091,"4D","Anti-Black","Assault (simple)","Individual(s)",2020
+"64",180014425,"4D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2018
+"65",180051896,"2D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2018
+"66",190006264,"1D","Anti-Jewish","Vandalism","School/College",2019
+"67",180055941,"2D","Anti-Homosexual","Assault (physical)","Individual(s)",2018
+"68",200019612,"4D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2020
+"69",190017752,"2D","Anti-Black","Written Intimidation/Simple Assault","School/College",2019
+"70",16033056,"5D","Anti-Hispanic","Written Intimidation/Simple Assault","Individual(s)",2016
+"71",190048433,"4D","Anti-Black","Vandalism","Society",2019
+"72",180028849,"5D","Anti-White","Assault (physical)","Individual(s)",2018
+"73",200012538,"2D","Anti-Hispanic","Assault (physical)","Individual(s)",2020
+"74",190010787,"1D","Anti-Jewish","Vandalism","School/College",2019
+"75",17008045,"RCPD","Anti-Black","Vandalism","School/College",2017
+"76",17015593,"RCPD","Anti-Jewish","Vandalism","School/College",2017
+"77",17001593,"2D","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"78",190042835,"2D","Anti-Black","Assault (physical)","Individual(s)",2019
+"79",180012810,"2D","Anti-Multi-Racial","Written Intimidation/Simple Assault","Other",2018
+"80",170548562,"1D","Anti-Jewish","Vandalism","School/College",2017
+"81",17012040,"1D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"82",200000046,"3D","Anti-White","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"83",190053319,"RCPD","Anti-Jewish","Other","Society",2019
+"84",16018453,"6D","Anti-Jewish","Vandalism","Other",2016
+"85",17010896,"1D","Anti-Transgender","Assault (physical)","Individual(s)",2017
+"86",16007397,"3D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"87",180003605,"RCPD","Anti-Jewish","Vandalism","Individual(s)",2018
+"88",180060752,"4D","Anti-Jewish","Vandalism","School/College",2018
+"89",16000094,"1D","Anti-Jewish","Vandalism","Government",2016
+"90",190031014,"4D","Anti-Other Religion","Vandalism","Religious Organization",2019
+"91",200021967,"6D","Anti-White","Assault (physical)","Individual(s)",2020
+"92",200017148,"4D","Anti-Catholic","Vandalism","Religious Organization",2020
+"93",16031785,"5D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"94",200006186,"2D","Anti-Jewish","Written Intimidation/Simple Assault","School/College",2020
+"95",190022287,"2D","Anti-Jewish","Vandalism","Other",2019
+"96",170512062,"6D","Anti-Black","Vandalism","Society",2017
+"97",16056997,"2D","Anti-Jewish","Vandalism","School/College",2016
+"98",170524265,"1D","Anti-Jewish","Vandalism","Government",2017
+"99",170519264,"2D","Anti-Homosexual","Other","Religious Organization",2017
+"100",190027831,"2D","Anti-Jewish","Vandalism","School/College",2019
+"101",170508274,"5D","Anti-Black","Other","Society",2017
+"102",16059407,"4D","Anti-Multi-Racial","Vandalism","School/College",2016
+"103",170542741,"1D","Anti-Multi-Religious Group","Other","Individual(s)",2017
+"104",190037812,"5D","Anti-White","Assault (physical)","Individual(s)",2019
+"105",190049612,"3D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"106",16028599,"5D","Anti-Islamic","Assault (physical)","Individual(s)",2016
+"107",180058409,"2D","Anti-Black","Written Intimidation/Simple Assault","Religious Organization",2018
+"108",170538425,"2D","Anti-Asian","Physical Intimidation/Simple Assault","Individual(s)",2017
+"109",16065398,"2D","Anti-Jewish","Vandalism","School/College",2016
+"110",190007372,"5D","Anti-Jewish","Written Intimidation/Simple Assault","School/College",2019
+"111",200015360,"4D","Anti-Catholic","Arson","Religious Organization",2020
+"112",190045257,"2D","Anti-Jewish","Vandalism","Individual(s)",2019
+"113",190046803,"2D","Anti-Homosexual","Vandalism","Individual(s)",2019
+"114",16064150,"6D","Anti-Multi-Racial","Vandalism","Other",2016
+"115",16058679,"3D","Anti-Black","Vandalism","School/College",2016
+"116",190039589,"1D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"117",16044286,"4D","Anti-Black","Assault (physical)","Individual(s)",2016
+"118",180005117,"4D","Anti-Transgender","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"119",180023349,"4D","Anti-Jewish","Vandalism","Society",2018
+"120",17010515,"RCPD","Anti-White","Vandalism","Society",2017
+"121",16025158,"5D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"122",190016987,"RCPD","Anti-Black","Written Intimidation/Simple Assault","Society",2019
+"123",190038334,"6D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"124",16065937,"5D","Anti-Other Ethnicity","Other","Individual(s)",2016
+"125",200014285,"RCPD","Anti-Jewish","Vandalism","Religious Organization",2020
+"126",180007406,"2D","Anti-Homosexual","Assault (physical)","Individual(s)",2018
+"127",190011995,"4D","Anti-Black","Vandalism","Government",2019
+"128",200011351,"2D","Anti-Hispanic","Assault (physical)","Individual(s)",2020
+"129",190024312,"2D","Anti-Jewish","Vandalism","School/College",2019
+"130",200022388,"5D","Anti-Jewish","Vandalism","Society",2020
+"131",170513456,"2D","Anti-White","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"132",180062235,"4D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2018
+"133",190060496,"2D","Anti-Transgender","Assault (physical)","Individual(s)",2019
+"134",16035615,"2D","Anti-Black","Other","Religious Organization",2016
+"135",170546720,"4D","Anti-Jewish","Vandalism","School/College",2017
+"136",190025730,"2D","Anti-Jewish","Vandalism","School/College",2019
+"137",17006589,"RCPD","Anti-Jewish","Vandalism","School/College",2017
+"138",170515518,"4D","Anti-Homosexual","Vandalism","Individual(s)",2017
+"139",190041672,"TPPD","Anti-Homosexual","Vandalism","Individual(s)",2019
+"140",16060434,"3D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"141",16000451,"2D","Anti-Black","Vandalism","School/College",2016
+"142",200006007,"3D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2020
+"143",16014662,"6D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2016
+"144",17005427,"6D","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2017
+"145",170528788,"2D","Anti-Jewish","Flyer Left Behind","Individual(s)",2017
+"146",180036812,"1D","Anti-Jewish","Flyer Left Behind","Individual(s)",2018
+"147",200008665,"2D","Anti-Jewish","Written Intimidation/Simple Assault","School/College",2020
+"148",16061372,"3D","Anti-White","Vandalism","Individual(s)",2016
+"149",190043357,"4D","Anti-Asian","Assault (physical)","Individual(s)",2019
+"150",170545799,"5D","Anti-Jewish","Vandalism","School/College",2017
+"151",200011976,"4D","Anti-Jewish","Vandalism","School/College",2020
+"152",17000751,"RCPD","Anti-Jewish","Vandalism","Government",2017
+"153",170505864,"2D","Anti-Homosexual","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"154",190024373,"1D","Anti-Jewish","Vandalism","School/College",2019
+"155",190003079,"RCPD","Anti-Jewish","Vandalism","School/College",2019
+"156",17001426,"1D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2017
+"157",16031132,"2D","Anti-Multi-Religious Group","Vandalism","School/College",2016
+"158",16022796,"3D","Anti-Hispanic","Assault (physical)","Individual(s)",2016
+"159",190020026,"2D","Anti-Black","Verbal Intimidation/Simple Assault","School/College",2019
+"160",16064736,"2D","Anti-Homosexual","Vandalism","Religious Organization",2016
+"161",170513786,"3D","Anti-Jewish","Vandalism","School/College",2017
+"162",190021275,"5D","Anti-Transgender","Vandalism","Business/Financial Institution",2019
+"163",200014895,"GCPD","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2020
+"164",200012482,"4D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2020
+"165",180039198,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"166",16045255,"3D","Anti-Jewish","Vandalism","Individual(s)",2016
+"167",180036489,"5D","Anti-Multi-Racial","Flyer Left Behind","Individual(s)",2018
+"168",200015942,"5D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2020
+"169",16022218,"1D","Anti-Multi-Racial","Vandalism","School/College",2016
+"170",16062433,"4D","Anti-Jewish","Vandalism","School/College",2016
+"171",180009756,"1D","Anti-Black","Other","Government",2018
+"172",16035346,"3D","Anti-Homosexual","Assault (physical)","Individual(s)",2016
+"173",16002798,"5D","Anti-Transgender","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"174",170521252,"RCPD","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"175",170523413,"4D","Anti-Black","Vandalism","Individual(s)",2017
+"176",190022870,"RCPD","Anti-Hispanic","Vandalism","Business/Financial Institution",2019
+"177",190023755,"2D","Anti-Other Ethnicity","Vandalism","School/College",2019
+"178",190056448,"2D","Anti-Jewish","Vandalism","Individual(s)",2019
+"179",200003519,"5D","Anti-Jewish","Vandalism","School/College",2020
+"180",170524454,"6D","Anti-Homosexual","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"181",180023500,"RCPD","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2018
+"182",17010637,"5D","Anti-Jewish","Vandalism","School/College",2017
+"183",190025582,"2D","Anti-Jewish","Vandalism","School/College",2019
+"184",180010731,"TPPD","Anti-Transgender","Assault (physical)","Individual(s)",2018
+"185",16001171,"2D","Anti-Jewish","Vandalism","School/College",2016
+"186",16064844,"6D","Anti-Homosexual","Vandalism","Other",2016
+"187",170528411,"6D","Anti-Black","Physical Intimidation/Simple Assault","Individual(s)",2017
+"188",170531517,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"189",190023112,"1D","Anti-Jewish","Vandalism","School/College",2019
+"190",180000925,"2D","Anti-Asian","Written Intimidation/Simple Assault","Individual(s)",2018
+"191",16067112,"1D","Anti-Jewish","Vandalism","Other",2016
+"192",180036383,"GCPD","Anti-Arab","Vandalism","Individual(s)",2018
+"193",190041233,"RCPD","Anti-Other Ethnicity","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"194",16030098,"4D","Anti-Asian","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"195",190040984,"4D","Anti-Jewish","Vandalism","Other",2019
+"196",200002368,"4D","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2020
+"197",180034717,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"198",16031655,"2D","Anti-Islamic","Assault (physical)","Individual(s)",2016
+"199",17011943,"1D","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2017
+"200",180053627,"1D","Anti-Jewish","Vandalism","School/College",2018
+"201",200001627,"4D","Anti-Jewish","Flyer Left Behind","Society",2020
+"202",170528121,"RCPD","Anti-Multi-Racial","Flyer Left Behind","Society",2017
+"203",16020209,"1D","Anti-Jewish","Vandalism","School/College",2016
+"204",180005896,"3D","Anti-Homosexual","Vandalism","Individual(s)",2018
+"205",190022028,"4D","Anti-Jewish","Vandalism","Society",2019
+"206",16058486,"3D","Anti-Hispanic","Vandalism","Religious Organization",2016
+"207",16058581,"4D","Anti-Hispanic","Assault (physical)","Individual(s)",2016
+"208",16042149,"3D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"209",200021910,"4D","Anti-Black","Vandalism","Business/Financial Institution",2020
+"210",200010934,"RCPD","Anti-Asian","Written Intimidation/Simple Assault","Individual(s)",2020
+"211",190030534,"1D","Anti-Hispanic","Assault (physical)","Individual(s)",2019
+"212",17000401,"2D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2017
+"213",200011796,"RCPD","Anti-Multi-Racial","Written Intimidation/Simple Assault","School/College",2020
+"214",16012552,"1D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2016
+"215",190015763,"2D","Anti-Homosexual","Assault (physical)","Individual(s)",2019
+"216",180004831,"RCPD","Anti-Gender Non-Conforming","Assault (physical)","Individual(s)",2018
+"217",16014707,"TPPD","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"218",180061842,"6D","Anti-Homosexual","Vandalism","School/College",2018
+"219",190018069,"2D","Anti-Jewish","Vandalism","Society",2019
+"220",170535772,"1D","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2017
+"221",16052215,"1D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2016
+"222",17007821,"GCPD","Anti-Jewish","Vandalism","School/College",2017
+"223",200021449,"2D","Anti-Homosexual","Assault (physical)","Individual(s)",2020
+"224",190006274,"1D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"225",180011551,"1D","Anti-White","Written Intimidation/Simple Assault","School/College",2018
+"226",180008200,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"227",170526402,"RCPD","Anti-Jewish","Flyer Left Behind","Other",2017
+"228",16058365,"3D","Anti-Islamic","Verbal Intimidation/Simple Assault","Religious Organization",2016
+"229",190049702,"3D","Anti-Black","Vandalism","Individual(s)",2019
+"230",180044692,"4D","Anti-Jewish","Vandalism","Religious Organization",2018
+"231",180014001,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"232",190003502,"4D","Anti-Islamic","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"233",16063483,"2D","Anti-Jewish","Flyer Left Behind","Individual(s)",2016
+"234",170507863,"2D","Anti-Black","Vandalism","School/College",2017
+"235",200014302,"5D","Anti-Other Religion","Vandalism","Religious Organization",2020
+"236",200005776,"4D","Anti-Black","Vandalism","School/College",2020
+"237",190025231,"2D","Anti-Black","Vandalism","Society",2019
+"238",190007085,"5D","Anti-Black","Assault (simple)","Individual(s)",2019
+"239",180056355,"4D","Anti-Transgender","Assault (physical)","Individual(s)",2018
+"240",16060113,"2D","Anti-Other Ethnicity","Written Intimidation/Simple Assault","Individual(s)",2016
+"241",170516376,"GCPD","Anti-Black","Vandalism","Individual(s)",2017
+"242",190030993,"1D","Anti-Black","Vandalism","Other",2019
+"243",190021305,"4D","Anti-Asian","Vandalism","Individual(s)",2019
+"244",180007926,"1D","Anti-Black","Vandalism","School/College",2018
+"245",190019957,"6D","Anti-Homosexual","Assault (physical)","Individual(s)",2019
+"246",200003031,"RCPD","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"247",170508252,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"248",200001072,"TPPD","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"249",17012521,"1D","Anti-Catholic","Vandalism","Individual(s)",2017
+"250",17004089,"3D","Anti-Jewish","Vandalism","School/College",2017
+"251",180012537,"6D","Anti-Black","Vandalism","Government",2018
+"252",180001592,"4D","Anti-Multi-Racial","Vandalism","Individual(s)",2018
+"253",180054728,"6D","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2018
+"254",16061267,"1D","Anti-Black","Vandalism","School/College",2016
+"255",16010040,"6D","Anti-Jewish","Vandalism","Other",2016
+"256",16034348,"2D","Anti-Jewish","Vandalism","Government",2016
+"257",190037127,"4D","Anti-Black","Vandalism","Individual(s)",2019
+"258",200012207,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"259",190043481,"GCPD","Anti-Multi-Racial","Vandalism","Society",2019
+"260",200005935,"4D","Anti-Transgender","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"261",200015065,"RCPD","Anti-Jewish","Vandalism","Business/Financial Institution",2020
+"262",180036449,"5D","Anti-Jewish","Flyer Left Behind","Individual(s)",2018
+"263",200012731,"RCPD","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"264",190048760,"GCPD","Anti-Asian","Assault (physical)","Individual(s)",2019
+"265",170540409,"2D","Anti-Jewish","Written Intimidation/Simple Assault","School/College",2017
+"266",170542528,"4D","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2017
+"267",170513374,"4D","Anti-Black","Vandalism","School/College",2017
+"268",180060495,"5D","Anti-Black","Assault (physical)","Individual(s)",2018
+"269",17010553,"4D","Anti-Islamic","Written Intimidation/Simple Assault","Religious Organization",2017
+"270",200006894,"2D","Anti-Jewish","Vandalism","School/College",2020
+"271",190015019,"2D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"272",180014071,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"273",17005248,"6D","Anti-Black","Assault (physical)","Individual(s)",2017
+"274",190059278,"1D","Anti-Jewish","Vandalism","School/College",2019
+"275",190014251,"1D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"276",180011102,"4D","Anti-White","Written Intimidation/Simple Assault","Individual(s)",2018
+"277",17010455,"2D","Anti-Jewish","Verbal Intimidation/Simple Assault","School/College",2017
+"278",170532001,"3D","Anti-Jewish","Vandalism","Government",2017
+"279",180022971,"RCPD","Anti-Black","Assault (physical)","Individual(s)",2018
+"280",16020077,"4D","Anti-Black","Other","School/College",2016
+"281",190033954,"4D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"282",170526017,"4D","Anti-Homosexual","Vandalism","Individual(s)",2017
+"283",170537332,"1D","Anti-Black","Physical Intimidation/Simple Assault","Government",2017
+"284",190031138,"RCPD","Anti-Homosexual","Assault (physical)","Individual(s)",2019
+"285",16007812,"4D","Anti-Multi-Racial","Vandalism","Other",2016
+"286",17005552,"5D","Anti-Other Ethnicity","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"287",17008261,"4D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"288",180015906,"2D","Anti-Transgender","Assault (physical)","Individual(s)",2018
+"289",17001156,"RCPD","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"290",190011458,"3D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2019
+"291",180020921,"GCPD","Anti-Multi-Racial","Vandalism","Society",2018
+"292",16053043,"5D","Anti-White","Assault (physical)","Individual(s)",2016
+"293",190019923,"RCPD","Anti-Jewish","Vandalism","Individual(s)",2019
+"294",180049428,"4D","Anti-Black","Written Intimidation/Simple Assault","School/College",2018
+"295",200009369,"2D","Anti-Jewish","Vandalism","School/College",2020
+"296",16038833,"4D","Anti-Transgender","Assault (physical)","Individual(s)",2016
+"297",16030124,"5D","Anti-White","Assault (physical)","Individual(s)",2016
+"298",200013722,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2020
+"299",190041063,"5D","Anti-Multi-Racial","Written Intimidation/Simple Assault","Business/Financial Institution",2019
+"300",190009605,"3D","Anti-Homosexual","Assault (physical)","Individual(s)",2019
+"301",180057207,"4D","Anti-Asian","Verbal Intimidation/Simple Assault","Business/Financial Institution",2018
+"302",16032895,"3D","Anti-Black","Vandalism","Individual(s)",2016
+"303",16052250,"2D","Anti-Jewish","Vandalism","School/College",2016
+"304",180008956,"3D","Anti-Hispanic","Vandalism","Society",2018
+"305",17012225,"2D","Anti-Black","Vandalism","School/College",2017
+"306",17014656,"1D","Anti-Hispanic","Verbal Intimidation/Simple Assault","School/College",2017
+"307",190019525,"2D","Anti-Homosexual","Written Intimidation/Simple Assault","Religious Organization",2019
+"308",180052330,"TPPD","Anti-Jewish","Vandalism","Individual(s)",2018
+"309",170533042,"1D","Anti-Black","Vandalism","School/College",2017
+"310",200020889,"1D","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2020
+"311",200021971,"4D","Anti-Black","Vandalism","Business/Financial Institution",2020
+"312",190016854,"RCPD","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2019
+"313",17008392,"1D","Anti-Jewish","Vandalism","School/College",2017
+"314",17000839,"6D","Anti-Islamic","Written Intimidation/Simple Assault","Religious Organization",2017
+"315",16054220,"1D","Anti-Jewish","Vandalism","School/College",2016
+"316",180029724,"2D","Anti-Jewish","Vandalism","School/College",2018
+"317",180043768,"5D","Anti-Other Religion","Verbal Intimidation/Simple Assault","Religious Organization",2018
+"318",180053595,"RCPD","Anti-Homosexual","Vandalism","Individual(s)",2018
+"319",190020400,"4D","Anti-Black","Vandalism","Society",2019
+"320",180026302,"GCPD","Anti-Jewish","Flyer Left Behind","Individual(s)",2018
+"321",190043750,"2D","Anti-Jewish","Vandalism","Individual(s)",2019
+"322",200007490,"4D","Anti-Asian","Assault (physical)","Individual(s)",2020
+"323",170516892,"4D","Anti-Islamic","Vandalism","Individual(s)",2017
+"324",190036323,"5D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"325",180014801,"1D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2018
+"326",17016332,"RCPD","Anti-Hispanic","Assault (physical)","Individual(s)",2017
+"327",180007511,"6D","Anti-Gender Non-Conforming","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"328",190014980,"2D","Anti-Black","Vandalism","School/College",2019
+"329",190004730,"3D","Anti-Homosexual","Flyer Left Behind","Society",2019
+"330",190000566,"2D","Anti-Black","Vandalism","Business/Financial Institution",2019
+"331",190030991,"2D","Anti-Jewish","Vandalism","Individual(s)",2019
+"332",190005702,"1D","Anti-Jewish","Vandalism","School/College",2019
+"333",16061017,"6D","Anti-Jewish","Vandalism","Government",2016
+"334",170547368,"GCPD","Anti-Jewish","Vandalism","School/College",2017
+"335",200000206,"TPPD","Anti-Homosexual","Vandalism","Individual(s)",2020
+"336",17015428,"RCPD","Anti-Hispanic","Flyer Left Behind","Society",2017
+"337",180009214,"4D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"338",17008087,"GCPD","Anti-Jewish","Vandalism","School/College",2017
+"339",16014473,"2D","Anti-Jewish","Flyer Left Behind","Other",2016
+"340",17015199,"4D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Society",2017
+"341",190038025,"RCPD","Anti-Black","Written Intimidation/Simple Assault","Society",2019
+"342",190024385,"4D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2019
+"343",16065935,"1D","Anti-Jewish","Vandalism","Government",2016
+"344",170514039,"6D","Anti-Homosexual","Vandalism","Society",2017
+"345",16064888,"2D","Anti-Jewish","Flyer Left Behind","Individual(s)",2016
+"346",180040116,"3D","Anti-Other Religion","Vandalism","Religious Organization",2018
+"347",180056319,"4D","Anti-Homosexual","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"348",180000185,"5D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"349",170501371,"RCPD","Anti-Multi-Racial","Flyer Left Behind","Society",2017
+"350",180030512,"RCPD","Anti-Jewish","Written Intimidation/Simple Assault","Religious Organization",2018
+"351",190006227,"RCPD","Anti-Jewish","Vandalism","Society",2019
+"352",180054345,"4D","Anti-Jewish","Vandalism","Individual(s)",2018
+"353",16055886,"2D","Anti-Jewish","Vandalism","School/College",2016
+"354",16019185,"5D","Anti-Multi-Racial","Flyer Left Behind","Individual(s)",2016
+"355",200007845,"TPPD","Anti-White","Vandalism","Society",2020
+"356",17016198,"5D","Anti-White","Assault (physical)","Individual(s)",2017
+"357",170513635,"2D","Anti-Black","Display of Noose","Individual(s)",2017
+"358",16020705,"2D","Anti-Multi-Religious Group","Vandalism","Government",2016
+"359",170511952,"3D","Anti-Islamic","Written Intimidation/Simple Assault","Individual(s)",2017
+"360",190013251,"6D","Anti-Islamic","Assault (physical)","Individual(s)",2019
+"361",180023060,"TPPD","Anti-Transgender","Assault (physical)","Individual(s)",2018
+"362",16065495,"3D","Anti-White","Vandalism","School/College",2016
+"363",180048816,"5D","Anti-Other Ethnicity","Vandalism","Individual(s)",2018
+"364",190034718,"5D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"365",16019492,"5D","Anti-Multi-Racial","Flyer Left Behind","Individual(s)",2016
+"366",190002042,"4D","Anti-Multi-Racial","Vandalism","School/College",2019
+"367",190058606,"4D","Anti-Jewish","Vandalism","School/College",2019
+"368",190033899,"4D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"369",180025325,"4D","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"370",190010757,"4D","Anti-Black","Vandalism","School/College",2019
+"371",180054970,"4D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"372",17009753,"5D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2017
+"373",180025757,"6D","Anti-Homosexual","Vandalism","Individual(s)",2018
+"374",17016212,"1D","Anti-Black","Vandalism","School/College",2017
+"375",16059730,"3D","Anti-Jewish","Vandalism","Individual(s)",2016
+"376",190049032,"5D","Anti-Black","Other","Society",2019
+"377",190010572,"4D","Anti-Black","Written Intimidation/Simple Assault","School/College",2019
+"378",170500969,"1D","Anti-Multi-Racial","Flyer Left Behind","Society",2017
+"379",16059494,"1D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"380",200000380,"TPPD","Anti-Homosexual","Vandalism","Individual(s)",2020
+"381",16061405,"1D","Anti-Jewish","Vandalism","School/College",2016
+"382",190042422,"6D","Anti-Jewish","Vandalism","Society",2019
+"383",170534673,"4D","Anti-Black","Assault (physical)","Individual(s)",2017
+"384",16058195,"2D","Anti-Jewish","Vandalism","School/College",2016
+"385",170521486,"3D","Anti-Hispanic","Assault (physical)","Individual(s)",2017
+"386",190058610,"5D","Anti-Black","Vandalism","School/College",2019
+"387",180045932,"4D","Anti-Black","Assault (physical)","Individual(s)",2018
+"388",16048796,"2D","Anti-Transgender","Assault (physical)","Individual(s)",2016
+"389",190061126,"4D","Anti-Black","Assault (physical)","Individual(s)",2019
+"390",190057278,"2D","Anti-Jewish","Vandalism","School/College",2019
+"391",16060360,"4D","Anti-Hispanic","Assault (physical)","Individual(s)",2016
+"392",170509521,"6D","Anti-Black","Vandalism","School/College",2017
+"393",180040663,"4D","Anti-Hispanic","Assault (physical)","Individual(s)",2018
+"394",16037478,"1D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2016
+"395",16037182,"2D","Anti-Hispanic","Assault (physical)","Individual(s)",2016
+"396",190057974,"4D","Anti-Black","Vandalism","School/College",2019
+"397",170526290,"3D","Anti-Islamic","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"398",180059646,"3D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"399",170515971,"3D","Anti-Black","Vandalism","Individual(s)",2017
+"400",190001026,"RCPD","Anti-Catholic","Vandalism","Religious Organization",2019
+"401",170521739,"GCPD","Anti-Hispanic","Assault (physical)","Individual(s)",2017
+"402",17002238,"3D","Anti-Jewish","Vandalism","School/College",2017
+"403",170543121,"4D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"404",180031107,"3D","Anti-Black","Vandalism","Religious Organization",2018
+"405",190029874,"2D","Anti-Black","Vandalism","Business/Financial Institution",2019
+"406",16026270,"TPPD","Anti-White","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"407",180022825,"4D","Anti-Homosexual","Vandalism","School/College",2018
+"408",170548729,"6D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2017
+"409",180062542,"2D","Anti-Black","Other","School/College",2018
+"410",190012119,"TPPD","Anti-Asian","Verbal Intimidation/Simple Assault","Society",2019
+"411",190018079,"RCPD","Anti-Black","Assault (simple)","Individual(s)",2019
+"412",190020981,"5D","Anti-Black","Vandalism","Society",2019
+"413",170526194,"GCPD","Anti-Asian","Vandalism","Government",2017
+"414",200006187,"2D","Anti-Jewish","Vandalism","School/College",2020
+"415",16024967,"3D","Anti-Jewish","Flyer Left Behind","Individual(s)",2016
+"416",200001377,"2D","Anti-Homosexual","Verbal Intimidation/Simple Assault","Society",2020
+"417",16036103,"1D","Anti-Black","Vandalism","Government",2016
+"418",190056339,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"419",190038139,"2D","Anti-Homosexual","Vandalism","Individual(s)",2019
+"420",190056404,"RCPD","Anti-Black","Verbal Intimidation/Simple Assault","Society",2019
+"421",170516427,"2D","Anti-Asian","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"422",180016500,"4D","Anti-Black","Vandalism","School/College",2018
+"423",190049765,"TPPD","Anti-Black","Vandalism","Government",2019
+"424",16060209,"2D","Anti-Jewish","Vandalism","School/College",2016
+"425",170514643,"4D","Anti-Black","Physical Intimidation/Simple Assault","Society",2017
+"426",170502163,"1D","Anti-Homosexual","Assault (physical)","Individual(s)",2017
+"427",180031855,"3D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2018
+"428",180054204,"3D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"429",16065054,"2D","Anti-Multi-Racial","Vandalism","Religious Organization",2016
+"430",190013600,"5D","Anti-Islamic","Vandalism","Individual(s)",2019
+"431",170514215,"3D","Anti-Black","Vandalism","Individual(s)",2017
+"432",16054366,"4D","Anti-Homosexual","Assault (physical)","Individual(s)",2016
+"433",200003575,"2D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2020
+"434",190054013,"6D","Anti-Black","Vandalism","Individual(s)",2019
+"435",190059858,"RCPD","Anti-Black","Verbal Intimidation/Simple Assault","Business/Financial Institution",2019
+"436",170530867,"6D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"437",180017177,"4D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2018
+"438",180027544,"GCPD","Anti-White","Assault (physical)","Individual(s)",2018
+"439",180055692,"2D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2018
+"440",16035635,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"441",190021692,"6D","Anti-Homosexual","Assault (physical)","Individual(s)",2019
+"442",17014825,"6D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2017
+"443",16066413,"6D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"444",180023857,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"445",190022915,"2D","Anti-Jewish","Vandalism","School/College",2019
+"446",16035697,"4D","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"447",17013994,"6D","Anti-Black","Assault (physical)","Individual(s)",2017
+"448",200007854,"4D","Anti-Black","Vandalism","Society",2020
+"449",180003892,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2018
+"450",17016633,"1D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"451",180064275,"RCPD","Anti-Black","Written Intimidation/Simple Assault","School/College",2018
+"452",190023313,"2D","Anti-Jewish","Vandalism","School/College",2019
+"453",16020631,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2016
+"454",170512466,"2D","Anti-Jewish","Vandalism","School/College",2017
+"455",17014459,"1D","Anti-Jewish","Vandalism","School/College",2017
+"456",190004111,"RCPD","Anti-Catholic","Vandalism","Religious Organization",2019
+"457",190006643,"2D","Anti-Black","Display of Noose","Business/Financial Institution",2019
+"458",180040392,"2D","Anti-Black","Vandalism","Individual(s)",2018
+"459",190016883,"4D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2019
+"460",16027958,"5D","Anti-Islamic","Assault (physical)","Individual(s)",2016
+"461",170510497,"1D","Anti-Jewish","Vandalism","School/College",2017
+"462",190051237,"4D","Anti-Multi-Racial","Flyer Left Behind","Society",2019
+"463",16024255,"TPPD","Anti-Jewish","Vandalism","Individual(s)",2016
+"464",170513795,"6D","Anti-Black","Physical Intimidation/Simple Assault","Society",2017
+"465",16032044,"6D","Anti-Multi-Religious Group","Vandalism","Government",2016
+"466",170524634,"1D","Anti-Islamic","Assault (physical)","Individual(s)",2017
+"467",190023546,"5D","Anti-Jewish","Vandalism","School/College",2019
+"468",170522548,"5D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2017
+"469",16048388,"4D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2016
+"470",17005568,"4D","Anti-Islamic","Verbal Intimidation/Simple Assault","Individual(s)",2017
+"471",16019138,"5D","Anti-Hispanic","Written Intimidation/Simple Assault","Individual(s)",2016
+"472",200014771,"6D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"473",170512854,"GCPD","Anti-Jewish","Vandalism","Society",2017
+"474",190013820,"2D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"475",190008048,"1D","Anti-Gender Non-Conforming","Verbal Intimidation/Simple Assault","Individual(s)",2019
+"476",190012351,"5D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2019
+"477",180008473,"3D","Anti-Jewish","Written Intimidation/Simple Assault","Individual(s)",2018
+"478",200010779,"5D","Anti-Black","Vandalism","School/College",2020
+"479",200023283,"1D","Anti-Asian","Assault (simple)","Individual(s)",2020
+"480",200023743,"6D","Anti-Multi-Racial","Vandalism","Society",2020
+"481",200023370,"4D","Anti-Black","Assault (simple)","Individual(s)",2020
+"482",200023220,"2D","Anti-Black","Vandalism","School/College",2020
+"483",200023881,"6D","Anti-Black","Written Intimidation/Simple Assault","Society",2020
+"484",200022158,"3D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2020
+"485",200022595,"6D","Anti-Black","Vandalism","Individual(s)",2020
+"486",200024002,"5D","Anti-Multi-Racial","Vandalism","Business/Financial Institution",2020
+"487",200010306,"2D","Anti-Black","Vandalism","School/College",2020
+"488",200025151,"4D","Anti-Other Christian","Verbal Intimidation/Simple Assault","Religious Organization",2020
+"489",200024294,"6D","Anti-White","Assault (simple)","Individual(s)",2020
+"490",200025065,"5D","Anti-Hispanic","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"491",200021753,"2D","Anti-Asian","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"492",200025560,"4D","Anti-Black","Other","Individual(s)",2020
+"493",200026050,"RCPD","Anti-Multi-Racial","Vandalism","Society",2020
+"494",200026919,"GCPD","Anti-Jewish","Vandalism","Society",2020
+"495",200027331,"4D","Anti-Jewish","Vandalism","School/College",2020
+"496",200026840,"6D","Anti-Other Ethnicity","Assault (simple)","Individual(s)",2020
+"497",200027636,"GCPD","Anti-Multi-Racial","Vandalism","Society",2020
+"498",200026933,"RCPD","Anti-Black","Vandalism","Individual(s)",2020
+"499",200027568,"3D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2020
+"500",200031285,"5D","Anti-White","Assault (physical)","Individual(s)",2020
+"501",200031359,"4D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"502",200032313,"5D","Anti-Asian","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"503",200030868,"2D","Anti-Jewish","Written Intimidation/Simple Assault","Society",2020
+"504",200031354,"5D","Anti-Homosexual","Vandalism","School/College",2020
+"505",200031255,"4D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2020
+"506",200032800,"5D","Anti-Hispanic","Assault (physical)","Individual(s)",2020
+"507",200033310,"4D","Anti-Homosexual","Other","Individual(s)",2020
+"508",200032905,"4D","Anti-Black","Vandalism","School/College",2020
+"509",200033474,"3D","Anti-White","Written Intimidation/Simple Assault","Business/Financial Institution",2020
+"510",200033347,"5D","Anti-Asian","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"511",200033510,"1D","Anti-Black","Written Intimidation/Simple Assault","Individual(s)",2020
+"512",200035694,"6D","Anti-Multi-Racial","Verbal Intimidation/Simple Assault","Business/Financial Institution",2020
+"513",200034523,"5D","Anti-Asian","Assault (simple)","Individual(s)",2020
+"514",200035435,"4D","Anti-Hispanic","Assault (physical)","Individual(s)",2020
+"515",200034267,"4D","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"516",200035879,"6D","Anti-Multi-Racial","Vandalism","Society",2020
+"517",200037324,"1D","Anti-Black","Verbal Intimidation/Simple Assault","School/College",2020
+"518",200036770,"2D","Anti-Jewish","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"519",200033465,"3D","Anti-White","Written Intimidation/Simple Assault","Business/Financial Institution",2020
+"520",200034491,"3D","Anti-Jewish","Other","Individual(s)",2020
+"521",200038765,"4D","Anti-Black","Written Intimidation/Simple Assault","Society",2020
+"522",200040560,"5D","Anti-Black","Assault (simple)","Individual(s)",2020
+"523",200040555,"2D","Anti-Black","Display of Noose","School/College",2020
+"524",200040693,"4D","Anti-Homosexual","Physical Intimidation/Simple Assault","Individual(s)",2020
+"525",200042228,"3D","Anti-Homosexual","Written Intimidation/Simple Assault","Individual(s)",2020
+"526",200039661,"5D","Anti-White","Vandalism","Individual(s)",2020
+"527",200039089,"3D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2020
+"528",200044170,"RCPD","Anti-Black","Verbal Intimidation/Simple Assault","Individual(s)",2020
+"529",200043449,"2D","Anti-Jewish","Vandalism","Individual(s)",2020
+"530",200044534,"2D","Anti-Jewish","Vandalism","School/College",2020
+"531",200045948,"6D","Anti-Homosexual","Assault (physical)","Individual(s)",2020
+"532",200044976,"5D","Anti-White","Assault (simple)","Individual(s)",2020
+"533",200046728,"6D","Anti-Black","Assault (simple)","Individual(s)",2020
+"534",200046805,"1D","Anti-Transgender","Written Intimidation/Simple Assault","Individual(s)",2020
+"535",200045586,"2D","Anti-Jewish","Vandalism","Individual(s)",2020
+"536",200046789,"1D","Anti-Jewish","Vandalism","Individual(s)",2020
+"537",200045934,"1D","Anti-Jewish","Verbal Intimidation/Simple Assault","Religious Organization",2020
+"538",200047241,"6D","Anti-Asian","Verbal Intimidation/Simple Assault","Business/Financial Institution",2020
+"539",200046530,"3D","Anti-Arab","Verbal Intimidation/Simple Assault","Individual(s)",2020
