@@ -1,0 +1,493 @@
+---
+title: "Data 608 Final: Bias Incidents"
+title2: "Bias Incidents"
+author: "Maryluz Cruz"
+date: "12/5/2020"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Bias Incidents
+
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+require(DataExplorer)
+require(tidyverse)
+require(ggplot2)
+require(plotly)
+require(kableExtra)
+
+```
+
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+antibias<- read.csv("https://raw.githubusercontent.com/Luz917/data608/master/data608Final/MCPD_Bias_Incidents.csv")
+```
+
+
+## Overview 
+
+Over the recent years there have been a lot of bias incidents that have been committed whether it be due to race, religion, sexual orientation. Here I wanted to look into that and see what bias incidents that have been committed the most. Also to see how many bias incidents were committed against a group based on the year, based on the district, based on the act of violence, and based on type of victim like for instance what industry.  
+
+In order to come up with the conclusion we are going to use this information was from the Montgomery County of Maryland. You can that a look at the data [here](https://catalog.data.gov/dataset/mcpd-bias-incidents). This data is updated frequently. The last date that on record is November 25, 2020. 
+
+We are going to look at the and see how many bias incidents occurred toward a specific group going from the years 2016-2020, by District among the many , by Act of Violence, and 
+
+## About the Data 
+
+
+This information was from the Montgomery County of Maryland, this data includes 539 cases and 16 Columns. There are many columns that will not be used because there is a lot of information that is missing in this data but it is not necessary for this. These incidents have occurred from the years 2016 - 2020. 
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+dim(antibias)
+```
+
+
+
+### Summary 
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+summary(antibias)
+```
+
+
+### Bias.Code
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+  kable(unique(antibias$Bias.Code)) %>%
+  kable_styling()
+```
+
+
+
+### District
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kable(unique(antibias$District)) %>%
+  kable_styling()
+
+```
+
+
+
+### Bias: Types of Acts of Violence 
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+kable(unique(antibias$Bias)) %>%
+  kable_styling()
+
+```
+
+
+### Type of Victim
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kable(unique(antibias$Victim.Type)) %>%
+  kable_styling()
+```
+
+
+## Analysis of the Data
+
+- By using the dataExplorer package plot_missing allows one to see if there is any data missing, the categories that are in blue will be removed, along with other categories that are not necessary along with Bias.Code_2 even though it says the data is good it has 498 blank rows. The only columns that will be kept Victim.Type, Bias, Bias.Code, District, Incident.Date.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+plot_missing(antibias)
+```
+
+
+- With Incident.Date since only the year is needed of the incident date, the year has to be separated out and a new column named Year is created. 
+- The columns that will not be used are also removed and we end up with these columns alone. 
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+antibias$Incident.Date <- as.POSIXct(antibias$Incident.Date, format = "%m/%d/%Y")
+antibias$Year<-as.numeric(format(antibias$Incident.Date, format="%Y"))
+```
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+antibias<-antibias[-c(2,5,7,8,10,11:16)]## Remove Index
+```
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+colnames(antibias)
+```
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+summary(antibias)
+```
+
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+write.csv(antibias, file = 'bias_incidents.csv')
+```
+
+
+- For this project dplyr will be used greatly in order to get the information that we want to achieve. 
+
+
+## Analysis of the Tables 
+
+We will take a closer look at the tables, and we are going to point out the highest number Total Incidents, and we will point out what group/Bias.Code the incident had occurred too.    
+
+* Using tidyverse 4 Tables were created. You can see the exact number of incidents in each table.
+   + Year Vs. Bias.Code
+   + District Vs. Bias.Code
+   + Bias: Type of Violence Vs. Bias.Code
+   + Victim.Type Vs. Bias.Code
+   
+   
+## Year Vs. Bias.Code   
+
+Here lets take a look at the Total number of incidents that happended among the years. 
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+yearcount <- antibias %>%
+  group_by(Year, Bias.Code)%>%
+  count()
+yearcount1 <- yearcount %>%
+  group_by(Year) %>%
+  mutate(Bias_Percent = ((n)/(sum(n))))
+yearcount_n <- antibias %>%
+  group_by(Year, Bias.Code)%>%
+  count(name = "Total_Incidents")
+kable(yearcount_n) %>%
+  kable_styling() 
+ 
+
+```
+
+
+- It seems like no matter what year there are more Anti-Black, and Anti-Jewish bias incidents, the numbers are pretty high in comparison to the others. 
+- In 2017 Anti-Jewish bias incidents was at its highest with 36 incidents.
+- In 2019 Anti-Black bias incidents was at its highest with 43 incidents.
+
+
+## District Vs. Bias Code
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+districtcount <- antibias %>%
+  group_by(District, Bias.Code)%>%
+  count()
+districtcount1 <- districtcount %>%
+  group_by(District) %>%
+  mutate(District_Percent = ((n/sum(n))*100))
+districtcount_n <- antibias %>%
+  group_by(District, Bias.Code)%>%
+  count(name = "Total_Incidents")
+
+kable(districtcount_n) %>%
+  kable_styling() 
+ 
+
+```
+
+
+- In mostly all of the Districts there are to be high numbers of bias incidents that occur of Anti-Black and Anti-Jewish.
+- In  a few of the Districts there were Bias Incidents of Anti-Homosexual. 
+- In one of the Districts there was a higher number of Anti-White bias incidents.
+
+
+
+## Bias: Type of Violence Vs. Bias.Code
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+typebiascount <- antibias %>%
+  group_by(Bias, Bias.Code)%>%
+  count()
+typebiascount1 <- typebiascount %>%
+  group_by(Bias) %>%
+  mutate(Bias_Type_Percent = ((n/sum(n))*100))
+typebiascount_n <- antibias %>%
+  group_by(Bias, Bias.Code)%>%
+  count(name = "Total_Incidents")
+
+kable(typebiascount_n) %>%
+  kable_styling() 
+
+
+
+```
+
+
+- There was a lot of Anti-Black bias incidents that occurred in the form of Assault (simple).
+- There was an alarming number of Anti-Jewish and Anti-Black bias incidents that occurred in the form of Vandalism
+- There were a few more Anti-Black bias incidents that occurred in the form of Other in comparison to the others. 
+- There was a lot of Anti-Black bias incidents that occurred in the form of Verbal Intimidation/Simple Assault. 
+- There was a lot of Anti-Black and Anti-Jewish bias incidents that occurred in the form of Written Intimidation/Simple Assault
+- There was a lot of Anti-Black, Anti-Hispanic, and Anti-Homosexual bias incidents that occurred in the form of Assault (physical)
+- There was a lot of Anti-Black bias incidents that occurred in the form of Flyer Left Behind
+- There was a lot of Anti-Black bias incidents that occurred in the form of Physical Intimidation/Simple Assault
+- There was one instance of Anti-Catholic bias incidents that occurred in the form Arson.  
+- There were 3 cases of Anti-Black bias incidents that occurred in the form Display of Noose.
+
+
+
+## Victim.Type Vs. Bias.Code
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+typecount <- antibias %>%
+  group_by(Victim.Type, Bias.Code)%>%
+  count()
+typecount1 <- typecount %>%
+  group_by(Victim.Type) %>%
+  mutate(Type_Percent = (n/sum(n))*100)
+typecount_n <- antibias %>%
+  group_by(Victim.Type, Bias.Code)%>%
+  count(name="Total_Incidents")
+
+kable(typecount_n) %>%
+  kable_styling() 
+
+
+```
+
+
+- Individual(s)- Anti-Black, Anti-Hispanic, Anti-Homosexual, Anti-Islamic, Anti-Jewish, Anti-Transgender, Anti-White 
+- School/College - Anti-Black and Anti-Jewish had the highest number of bias incidents
+- Society - Anti-Jewish, Anti-Black, Anti-Multiracial
+- Religious Organization- Anti-Jewish
+- Government - Anti-Black, Anti-Jewish
+- Business/Financial Institution - Anti-Black, Anti-Multi-Racial
+- Other - Anti-Jewish
+
+
+# Visualizations
+
+
+
+### Year Vs. Bias Code 
+
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(yearcount1, aes(fill=Bias.Code, y=Bias_Percent , x=Year)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Year vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()
+
+```
+
+
+### Year Vs. Bias Code Facet Wrap
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(yearcount1, aes(fill=Bias.Code, y=Bias_Percent , x=Year)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Year vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()+ 
+  facet_wrap(~Bias.Code)
+
+```
+
+
+### Year Vs. Bias Code Geom-Point
+
+
+```{r echo=FALSE, fig.height=8, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+p<-ggplot(yearcount1, aes(fill=Bias.Code, y=Bias_Percent , x=Year)) + 
+    geom_point(aes(col=Bias.Code, size=Bias_Percent)) +
+    ggtitle("Year vs Bias.Code") +
+  theme_minimal()
+
+p <- ggplotly(tooltip = c("label"))
+p
+```
+
+
+
+- Looking at the visuals it is evident that no matter what year there are more Anti-Black and Anti-Jewish bias incidents.
+
+
+
+
+
+
+### District Vs. Bias.Code
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(districtcount1, aes(fill=Bias.Code, y=District_Percent , x=District)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("District vs Bias.Code") +
+  theme_minimal()+
+  coord_flip()
+
+```
+
+
+### District Vs. Bias.Code Facet Wrap
+
+
+```{r echo=FALSE, fig.height=8, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(districtcount1, aes(fill=Bias.Code, y=District_Percent , x=District)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("District vs Bias.Code") +
+  theme_minimal()+
+  coord_flip()+
+  facet_wrap(~Bias.Code)
+
+```
+
+
+
+### District Vs. Bias.Code Geom-Point
+
+
+```{r echo=FALSE, fig.height=8, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+p<-ggplot(districtcount1, aes( y=District_Percent , x=District)) + 
+   geom_point(aes(col=Bias.Code, size=District_Percent)) + 
+   ggtitle("District vs Bias.Code") 
+
+pp <- ggplotly(p, tooltip="text")
+ 
+pp
+```
+
+
+- Looking at the visuals it is evident that no matter what District there are more Anti-Black and Anti-Jewish bias incidents and also Anti-Homosexual 
+
+
+
+### Bias:Type of Violence Vs. Bias.Code
+
+
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(typebiascount1, aes(fill=Bias.Code, y=Bias_Type_Percent , x=Bias)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Bias vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()
+```
+
+
+### Bias:Type of Violence Vs. Bias.Code Facet Wrap
+
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(typebiascount1, aes(fill=Bias.Code, y=Bias_Type_Percent , x=Bias)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Bias vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()+ 
+  facet_wrap(~Bias.Code)
+```
+
+
+### Bias:Type of Violence Vs. Bias.Code Geom-Point
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+rp1<-ggplot(typebiascount1, aes(fill=Bias.Code, y=Bias_Type_Percent , x=Bias)) + 
+    geom_point(aes(col=Bias.Code, size=Bias_Type_Percent)) +
+    ggtitle("Bias vs Bias.Code") +
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 50, hjust=1))
+
+rpp1 <- ggplotly(rp1, tooltip="text")
+
+rpp1
+```
+
+- Anti_Black bias incidents have occured in almost all types of violence. 
+
+
+### Victim.Type Vs. Bias.Code
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(typecount1, aes(fill=Bias.Code, y=Type_Percent , x=Victim.Type)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Victim.Type vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()
+
+```
+
+
+### Victim.Type Vs. Bias.Code Facet Wrap
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+ggplot(typecount1, aes(fill=Bias.Code, y=Type_Percent , x=Victim.Type)) + 
+    geom_bar(position="dodge", stat="identity") +
+    ggtitle("Victim.Type vs Bias.Code") +
+  coord_flip()+
+  theme_minimal()+
+  facet_wrap(~Bias.Code)
+
+```
+
+### Victim.Type Vs. Bias.Code Geom-Point
+
+
+```{r echo=FALSE, fig.height=10, fig.retina=2, fig.width=10, message=FALSE, warning=FALSE}
+rp2<-ggplot(typecount1, aes(fill=Bias.Code, y=Type_Percent  , x=Victim.Type)) + 
+    geom_point(aes(col=Bias.Code, size=Type_Percent )) +
+    ggtitle("Victim.Type vs Bias.Code") +
+  theme_minimal()+
+  theme(axis.text.x = element_text(angle = 50, hjust=1))
+
+rpp2 <- ggplotly(rp2, tooltip="text")
+
+rpp2
+
+```
+
+
+
+
+
+
+## ShinyApps 
+
+For a more interactive approach of the visualizations ShinyApps were created. 
+
+If one wants to look at the basic Bar Chart and can go to this ShinyApp:
+https://luz917.shinyapps.io/data608finalallincidents/
+
+
+If one wants to look at all of the visualizations and some tables one could look at this ShinyApp: 
+https://luz917.shinyapps.io/data608finalprojectshiny/
+
+
+## Conclusion
+
+It is sometimes surprising that so many bias incidents occur, and considering that this is just data from one particular county in Maryland. One could only imagine how many more bias incidents there would be if once included all of the states. Even if all of the states were included it would still be apparent that there are many more Anti-Black, and Anti-Jewish bias incidents that occur and it does not matter matter what category it would fall under. There were still many Anti-Homosexual bias incidents that occurred. Also when looking at the bias incidents that occurred among Individual(s) there were Anti_Black, Anti-Hispanic, Anti-Homosexual, Anti-Islamic, and Anti-Jewish.  One can only wonder if the amount of bias incidents that occur will decrease. Just recently there was an Anti-Jewish bias incident that occurred in Illinois where flyers were put on the only Anne Frank memorial that is in the US. Another good project would be to get all of the data from all of the States and see how much of an increase there would be. 
+
+
+
+
+
