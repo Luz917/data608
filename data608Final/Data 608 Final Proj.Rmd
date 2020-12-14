@@ -13,7 +13,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+## Link to Rpubs:https://rpubs.com/Luz917/finalproject
 
 # Bias Incidents
 
